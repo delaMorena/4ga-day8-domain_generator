@@ -8,7 +8,8 @@ window.onload = function() {
         for (j = 0; j < adjetivo.length; j++) {    
             for (k = 0; k < nombre.length; k++) {      
                 let nuestraPagina = pronombre[i] + adjetivo[j] + nombre[k] + ".com";
-                console.log(nuestraPagina);
+                document.getElementById("domain").innerHTML = nuestraPagina;
+
             }
         }
     }
